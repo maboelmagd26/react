@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { UserContext } from "../store/UserContext";
+import { UserContext } from "../../store/UserContext";
 //ToDo : 1. consume it using useContext Hook
 export default function UpdateUser() {
   const { updateUserName, user, inputValue, setInputValue } =
